@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 38px;
+}
+
+ol {
+    margin-left: 100px;
+}
+
+body {
+    height:600;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    margin-top: 25px;
+}
+
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .photo-grid {
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .photo-grid-item {
+    margin-right: 30px;
+    width: 410px;
+    height: 150px;
+    justify-content: left;
+    text-align: center;
+    padding-bottom: 30px ;
+    margin-bottom: 160px;
+  }
+
+  .first-item {
+      order:1;
+  }
+
+  .last-item {
+      order: -1;
+  }
+
+  .container {
+    display:flex;
+    justify-content: center;
+    margin-left: 250px;
+    margin-bottom: 50px;
+    margin-right: 250px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.main-body{
+    padding-top: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+.page-header {
+    justify-content: center;
+    text-align: left;
+
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-item {
+    border: 1px solid #fff;
+    background-color: slategray;
+    color: black;
+    height: 150px;
+    width: fit-content;
+    flex: 1;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+    position:relative;
+    width: 100%;
+    bottom:0;
+    border-width: 2px;
+    border-color: black;
+    justify-content: baseline;
+  }
+  a:visited {
+      color:black;
+  }
+
+  a:link {
+      color: black;
+  }
+
+  .profile-picture {
+
+    display: flex;
+    justify-content: left;
+    margin-top: 25px;
+    margin-left: 350px;
+    padding-right: 50px;
+    margin-right: 250px;
+    align-items: center;
+}
+.profile-description {
+    padding-left: 25px;
+
+}
+
+.picture-and-description {
+    background-color: grey;
+    border: 5px black;
+}
+
+.top-picture {
+    display: flex;
+    justify-content: left;
+    margin-top: 25px;
+    margin-left: 50px;
+    padding-right: 50px;
+    margin-right: 25;
+    align-items: center;
+}
+
+.instructions {
+    margin-top: 25px;
+    text-align: center;
+}
+
+ul {
+    margin-left: 100px;
+}
+
+.column {
+    width: 40%;
+    margin-left: 100px;
+    border-color: black;
+    border-width: 2px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  hr {
+      border-width:4px;
+      border-color: black;
+  }
